@@ -36,6 +36,8 @@
 #   include "ruuvi_board_gwnrf.h"
 #elif defined BOARD_RUUVIGW_ESP
 #   include "ruuvi_board_gwesp.h"
+#elif defined BOARD_PCA10100
+#   include "ruuvi_board_pca10100.h"
 #else
 #   error "Define your board in preprocessor"
 #endif
