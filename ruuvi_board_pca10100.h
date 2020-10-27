@@ -77,10 +77,10 @@
 
 // LED definitions for PCA10100
 #define RB_LEDS_NUMBER               4
-#define RB_LED_1                     RB_PORT_PIN_MAP(0, 17)
-#define RB_LED_2                     RB_PORT_PIN_MAP(0, 18)
-#define RB_LED_3                     RB_PORT_PIN_MAP(0, 19)
-#define RB_LED_4                     RB_PORT_PIN_MAP(0, 20)
+#define RB_LED_1                     RB_PORT_PIN_MAP(0, 13)
+#define RB_LED_2                     RB_PORT_PIN_MAP(0, 14)
+#define RB_LED_3                     RB_PORT_PIN_MAP(0, 15)
+#define RB_LED_4                     RB_PORT_PIN_MAP(0, 16)
 #define RB_LEDS_ACTIVE_STATE         {0, 0, 0, 0}
 #define RB_LEDS_LIST                 { RB_LED_1, RB_LED_2, RB_LED_3, RB_LED_4 }
 #define RB_LED_ACTIVITY              RB_LED_1
@@ -91,10 +91,10 @@
 #define RB_BUTTON_PWR_PIN_NUMBER     0
 #define RB_BUTTON_PWR_PINS           {  }
 #define RB_BUTTONS_NUMBER            4
-#define RB_BUTTON_1                  RB_PORT_PIN_MAP(0, 13)
-#define RB_BUTTON_2                  RB_PORT_PIN_MAP(0, 14)
-#define RB_BUTTON_3                  RB_PORT_PIN_MAP(0, 15)
-#define RB_BUTTON_4                  RB_PORT_PIN_MAP(0, 16)
+#define RB_BUTTON_1                  RB_PORT_PIN_MAP(0, 11)
+#define RB_BUTTON_2                  RB_PORT_PIN_MAP(0, 12)
+#define RB_BUTTON_3                  RB_PORT_PIN_MAP(0, 24)
+#define RB_BUTTON_4                  RB_PORT_PIN_MAP(0, 25)
 #define RB_BUTTONS_ACTIVE_STATE      { 0, 0, 0, 0 }
 #define RB_BUTTONS_LIST              { RB_BUTTON_1, RB_BUTTON_2, RB_BUTTON_3, RB_BUTTON_4 }
 #define RB_BUTTON_DEBOUNCE_PERIOD_MS 50
